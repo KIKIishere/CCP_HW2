@@ -1,0 +1,25 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skip{
+  position: absolute;
+  top: -40px;
+}
+
+.skip:focus{
+    top: 20px;
+}
+
+nav li{
+    display:inline-block;
+    padding: 20px 10px 20px 10px;
+}
+
+.focus{
+    text-decoration: wavy underline;
+    background-color: rgb(201, 176, 149);
+}
