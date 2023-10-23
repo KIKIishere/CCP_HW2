@@ -1,8 +1,87 @@
+@media screen and (min-width: 776px) {
+  body {
+    font-size: 14px;
+  }
+}
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding: 5px;
+}
+  .grid-item {
+  background-color: #f4ddb5;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #ffffff;
+}
+@media screen and (min-width: 1120) {
+  body {
+    font-size: 18px;
+  }
+}
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding: 5px;
+}
+  .grid-item {
+  background-color: #f4ddb5;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #ffffff;
+}
+
+
+
+
+body{
+  background-color:#be6423e4;
+  color: rgb(29, 20, 10);
+  margin: 5%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 7px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 700%;
+  
+}
+
+h2{
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 200%;
+}
+
+h3{
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(86, 42, 11);
+  line-height: 300%;
+}
+
+p{
+  font-size: 15px;
+  line-height: 200%;
+}
+
 
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 
 .skip{
@@ -15,11 +94,51 @@ ul{
 }
 
 nav li{
+    font-size: 30px;
     display:inline-block;
     padding: 20px 10px 20px 10px;
+    margin-left: 50px;
 }
 
 .focus{
-    text-decoration: wavy underline;
-    background-color: rgb(201, 176, 149);
+    text-decoration: wavy underline white;
+    background-color: rgb(244, 223, 200);
 }
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container > div {
+    background-color: rgb(249, 196, 140);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 5px;
+    align-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.cover_img{
+    display: block;
+    width: 40%;
+    margin: auto 
+}
+ 
+@media (prefers-reduced-motion: reduce) {
+  #gif-image {
+     visibility: hidden;
+  }
+  
+  #static-image {
+     display: block;
+  }
+}
+
